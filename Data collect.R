@@ -11,4 +11,11 @@ fullevents <- fromJSON(rawevents)
 
 reducedevents = fullevents$key
 
-reducedevents
+fulldata = list()
+for(i in reducedevents){
+  rawdata <- GET(paste("https://www.thebluealliance.com/api/v3/event/",i,"/matches?X-TBA-Auth-Key=DzzDoXPk1JshyNjKpjkdDP2RHaqXNVD44xksasNYSxJu5YSmWYkTWvzA9stCcqrB",sep=""))
+  rawdata2 <- rawToChar(rawdata$content)
+  fulldata <- fromJSON(rawdata2)
+}
+
+fulldata
