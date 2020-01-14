@@ -7,6 +7,8 @@ year <- 2019
 
 eventlist <- GET(paste("https://www.thebluealliance.com/api/v3/events/",year,"?X-TBA-Auth-Key=DzzDoXPk1JshyNjKpjkdDP2RHaqXNVD44xksasNYSxJu5YSmWYkTWvzA9stCcqrB",sep=""))
 rawevents <- rawToChar(eventlist$content)
-raweventlist <- fromJSON(rawevents)
+fullevents <- fromJSON(rawevents)
 
-raweventlist
+reducedevents = fullevents$key
+
+reducedevents
