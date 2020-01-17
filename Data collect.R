@@ -32,8 +32,18 @@ for(k in length(fulldata):1){
   }
 }
 
-for (l in 1:length(fulldata)) {
-  for (m in 1:length(fulldata[[l]])) {
-    print(m)
-  }
+# Reducing the list down to only the data needed
+reduceddata <- vector(mode="list", length=length(fulldata))
+for (n in 1:length(fulldata)) {
+  reduceddata[[n]][["blue"]][["score"]] <- fulldata[[n]][["alliances"]][["blue"]][["score"]]
+  reduceddata[[n]][["blue"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["blue"]][["team_keys"]]
+  reduceddata[[n]][["red"]][["score"]] <- fulldata[[n]][["alliances"]][["red"]][["score"]]
+  reduceddata[[n]][["red"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["red"]][["team_keys"]]
 }
+
+# Ignore this
+# for (l in 1:length(fulldata)) {
+#   for (m in 1:length(fulldata[[l]][["alliances"]])) {
+#     strsplit(fulldata[[l]][["alliances"]][[m]])
+#   }
+# }
