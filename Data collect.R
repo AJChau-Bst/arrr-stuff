@@ -30,5 +30,10 @@ for(k in length(fulldata):1){
   if(length(fulldata[[k]])==0){
     fulldata[[k]] <- NULL
   }
-  
+}
+
+for (l in 1:length(fulldata)) {
+  for (m in 1:length(fulldata[[l]])) {
+    print(m)
+  }
 }
