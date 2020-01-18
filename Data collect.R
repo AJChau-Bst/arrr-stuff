@@ -50,3 +50,18 @@ for (l in 1:length(fulldata)) {
 # creates a vector of all unique team numbers
 teamvector <- unlist(combinedteams)
 uniqueteams <- unique(teamvector)
+
+matchmatrix <- matrix(0, ncol = length(uniqueteams), nrow = length(combinedscore))
+for (m in 1:length(combinedscore)) {
+  for (n in 1:length(uniqueteams)) {
+    if (combinedteams[[m]][[1]]==uniqueteams[[n]]) {
+      matchmatrix[m,n] <- 1
+    } else if (combinedteams[[m]][[2]]==uniqueteams[[n]]) {
+      matchmatrix[m,n] <- 1
+    } else if (combinedteams[[m]][[3]]==uniqueteams[[n]]) {
+      matchmatrix[m,n] <- 1
+    }
+  }
+}
+
+tmatchmatrix <- t(matchmatrix)
