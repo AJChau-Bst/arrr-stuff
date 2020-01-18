@@ -36,20 +36,17 @@ for(k in length(fulldata):1){
 reduceddata <- vector(mode="list", length=length(fulldata))
 combinedscore <- vector()
 combinedteams <- vector()
-for (n in 1:length(fulldata)) {
-  reduceddata[[n]][["blue"]][["score"]] <- fulldata[[n]][["alliances"]][["blue"]][["score"]]
-  reduceddata[[n]][["blue"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["blue"]][["team_keys"]]
-  reduceddata[[n]][["red"]][["score"]] <- fulldata[[n]][["alliances"]][["red"]][["score"]]
-  reduceddata[[n]][["red"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["red"]][["team_keys"]]
-  combinedscore <- c(combinedscore, reduceddata[[n]][["blue"]][["score"]])
-  combinedscore <- c(combinedscore, reduceddata[[n]][["red"]][["score"]])
-  combinedteams <- c(combinedteams, reduceddata[[n]][["blue"]][["team_keys"]])
-  combinedteams <- c(combinedteams, reduceddata[[n]][["red"]][["team_keys"]])
+for (l in 1:length(fulldata)) {
+  reduceddata[[l]][["blue"]][["score"]] <- fulldata[[l]][["alliances"]][["blue"]][["score"]]
+  reduceddata[[l]][["blue"]][["team_keys"]] <- fulldata[[l]][["alliances"]][["blue"]][["team_keys"]]
+  reduceddata[[l]][["red"]][["score"]] <- fulldata[[l]][["alliances"]][["red"]][["score"]]
+  reduceddata[[l]][["red"]][["team_keys"]] <- fulldata[[l]][["alliances"]][["red"]][["team_keys"]]
+  combinedscore <- c(combinedscore, reduceddata[[l]][["blue"]][["score"]])
+  combinedscore <- c(combinedscore, reduceddata[[l]][["red"]][["score"]])
+  combinedteams <- c(combinedteams, reduceddata[[l]][["blue"]][["team_keys"]])
+  combinedteams <- c(combinedteams, reduceddata[[l]][["red"]][["team_keys"]])
 }
 
-# Ignore this
-# for (l in 1:length(fulldata)) {
-#   for (m in 1:length(fulldata[[l]][["alliances"]])) {
-#     strsplit(fulldata[[l]][["alliances"]][[m]])
-#   }
-# }
+# creates a vector of all unique team numbers
+teamvector <- unlist(combinedteams)
+uniqueteams <- unique(teamvector)
