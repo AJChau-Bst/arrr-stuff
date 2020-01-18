@@ -65,3 +65,4 @@ for (m in 1:length(combinedscore)) {
 }
 
 tmatchmatrix <- t(matchmatrix)
+nmatchmatrix <- matchmatrix %*% tmatchmatrix
