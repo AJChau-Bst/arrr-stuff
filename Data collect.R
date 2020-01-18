@@ -32,13 +32,19 @@ for(k in length(fulldata):1){
   }
 }
 
-# Reducing the list down to only the data needed
+# Reducing the list down to only the data needed, and splitting into individual vectors to be later combined into a matrix
 reduceddata <- vector(mode="list", length=length(fulldata))
+combinedscore <- vector()
+combinedteams <- vector()
 for (n in 1:length(fulldata)) {
   reduceddata[[n]][["blue"]][["score"]] <- fulldata[[n]][["alliances"]][["blue"]][["score"]]
   reduceddata[[n]][["blue"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["blue"]][["team_keys"]]
   reduceddata[[n]][["red"]][["score"]] <- fulldata[[n]][["alliances"]][["red"]][["score"]]
   reduceddata[[n]][["red"]][["team_keys"]] <- fulldata[[n]][["alliances"]][["red"]][["team_keys"]]
+  combinedscore <- c(combinedscore, reduceddata[[n]][["blue"]][["score"]])
+  combinedscore <- c(combinedscore, reduceddata[[n]][["red"]][["score"]])
+  combinedteams <- c(combinedteams, reduceddata[[n]][["blue"]][["team_keys"]])
+  combinedteams <- c(combinedteams, reduceddata[[n]][["red"]][["team_keys"]])
 }
 
 # Ignore this
