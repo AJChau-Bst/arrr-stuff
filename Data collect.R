@@ -67,12 +67,11 @@ for (m in 1:length(combinedscore)) {
   print(paste(floor(100*m/length(combinedscore)),"%", sep = ""))
 }
 
-"Please wait. This may take a while."
+print("Please wait. This may take a while.")
 # normalizing the matrix
 tmatchmatrix <- t(matchmatrix)
-"Matrix Transposed."
 nmatchmatrix <- tmatchmatrix %*% matchmatrix
-"Matrix normalized."
+print("Matrix normalized.")
 
 # solving the matrix
-"Yeah, I haven't gotten this far yet. The program ends here."
+print("Yeah, I haven't gotten this far yet. The program ends here.")
