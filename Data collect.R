@@ -21,15 +21,15 @@ for(i in reducedevents){
   rawdata2 <- rawToChar(rawdata$content)
   fulldata[[j]] <- fromJSON(rawdata2)
   j=j+1
+  print(paste(paste(floor(100*j/length(reducedevents)),"%", sep = ""), i, sep = "     "))
 }
-
-# fulldata <- fulldata2 # <- For testing purposes
 
 # Cleaning fulldata of empty events (not entirely sure why those are there)
 for(k in length(fulldata):1){
   if(length(fulldata[[k]])==0){
     fulldata[[k]] <- NULL
   }
+  print(paste(floor(100-(100*k/length(fulldata))),"%", sep = ""))
 }
 
 # Reducing the list down to only the data needed, and splitting into individual vectors to be later combined into a matrix
@@ -45,12 +45,14 @@ for (l in 1:length(fulldata)) {
   combinedscore <- c(combinedscore, reduceddata[[l]][["red"]][["score"]])
   combinedteams <- c(combinedteams, reduceddata[[l]][["blue"]][["team_keys"]])
   combinedteams <- c(combinedteams, reduceddata[[l]][["red"]][["team_keys"]])
+  print(paste(floor(100*l/length(fulldata)),"%", sep = ""))
 }
 
 # creates a vector of all unique team numbers
 teamvector <- unlist(combinedteams)
 uniqueteams <- unique(teamvector)
 
+# assembling the matrix defining when each team played
 matchmatrix <- matrix(0, ncol = length(uniqueteams), nrow = length(combinedscore))
 for (m in 1:length(combinedscore)) {
   for (n in 1:length(uniqueteams)) {
@@ -62,7 +64,15 @@ for (m in 1:length(combinedscore)) {
       matchmatrix[m,n] <- 1
     }
   }
+  print(paste(floor(100*m/length(combinedscore)),"%", sep = ""))
 }
 
+"Please wait. This may take a while."
+# normalizing the matrix
 tmatchmatrix <- t(matchmatrix)
-nmatchmatrix <- matchmatrix %*% tmatchmatrix
+"Matrix Transposed."
+nmatchmatrix <- tmatchmatrix %*% matchmatrix
+"Matrix normalized."
+
+# solving the matrix
+"Yeah, I haven't gotten this far yet. The program ends here."
