@@ -80,3 +80,7 @@ opr <- solve(nmatchmatrix, nscore)
 
 # assigning teams to opr's
 rownames(opr) <- uniqueteams
+colnames(opr) <- "OPR"
+
+# writing to .csv
+write.csv(opr, file = "opr")
