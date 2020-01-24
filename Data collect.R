@@ -74,4 +74,9 @@ nmatchmatrix <- tmatchmatrix %*% matchmatrix
 print("Matrix normalized.")
 
 # solving the matrix
-print("Yeah, I haven't gotten this far yet. The program ends here.")
+nscore <- tmatchmatrix %*% combinedscore
+
+opr <- solve(nmatchmatrix, nscore)
+
+# assigning teams to opr's
+rownames(opr) <- uniqueteams
