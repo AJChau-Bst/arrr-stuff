@@ -36,6 +36,7 @@ for(k in length(fulldata):1){
 reduceddata <- vector(mode="list", length=length(fulldata))
 combinedscore <- vector()
 combinedteams <- vector()
+dprscore <- vector()
 for (l in 1:length(fulldata)) {
   reduceddata[[l]][["blue"]][["score"]] <- fulldata[[l]][["alliances"]][["blue"]][["score"]]
   reduceddata[[l]][["blue"]][["team_keys"]] <- fulldata[[l]][["alliances"]][["blue"]][["team_keys"]]
@@ -45,6 +46,8 @@ for (l in 1:length(fulldata)) {
   combinedscore <- c(combinedscore, reduceddata[[l]][["red"]][["score"]])
   combinedteams <- c(combinedteams, reduceddata[[l]][["blue"]][["team_keys"]])
   combinedteams <- c(combinedteams, reduceddata[[l]][["red"]][["team_keys"]])
+  dprscore <- c(dprscore, reduceddata[[l]][["red"]][["score"]])
+  dprscore <- c(dprscore, reduceddata[[l]][["blue"]][["score"]])
   print(paste(floor(100*l/length(fulldata)),"%", sep = ""))
 }
 
@@ -74,6 +77,7 @@ nmatchmatrix <- tmatchmatrix %*% matchmatrix
 print("Matrix normalized.")
 
 # solving the matrix
+print("Solving. Please wait. This may take several minutes.")
 nscore <- tmatchmatrix %*% combinedscore
 
 opr <- solve(nmatchmatrix, nscore)
@@ -84,3 +88,15 @@ colnames(opr) <- "OPR"
 
 # writing to .csv
 write.csv(opr, file = "opr")
+
+# ## DPR ##
+print("Solving. Please wait. This may take a while.")
+dprnscore <- tmatchmatrix %*% dprscore
+
+dpr <- solve(nmatchmatrix, dprnscore)
+
+rownames(dpr) <- uniqueteams
+colnames(dpr) <- "DPR"
+
+write.csv(dpr, file = "dpr")
+print("Complete.")
