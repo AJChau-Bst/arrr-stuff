@@ -99,4 +99,9 @@ rownames(dpr) <- uniqueteams
 colnames(dpr) <- "DPR"
 
 write.csv(dpr, file = "dpr")
+
+# ## CCWM ##
+ccwm <- opr - dpr
+colnames(ccwm) <- "CCWM"
+write.csv(ccwm, file = "ccwm")
 print("Complete.")
