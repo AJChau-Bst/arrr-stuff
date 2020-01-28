@@ -4,7 +4,7 @@ library(data.table)
 
 # User input here
 teamnum <- 2877
-year <- 2019
+year <- 2009
 
 # Grabbing list of worldwide events from TBA API
 eventlist <- GET(paste("https://www.thebluealliance.com/api/v3/events/",year,"?X-TBA-Auth-Key=DzzDoXPk1JshyNjKpjkdDP2RHaqXNVD44xksasNYSxJu5YSmWYkTWvzA9stCcqrB",sep=""))
@@ -87,7 +87,7 @@ rownames(opr) <- uniqueteams
 colnames(opr) <- "OPR"
 
 # writing to .csv
-write.csv(opr, file = "opr")
+write.csv(opr, file = "opr.csv")
 
 # ## DPR ##
 print("Solving. Please wait. This may take a while.")
@@ -98,10 +98,10 @@ dpr <- solve(nmatchmatrix, dprnscore)
 rownames(dpr) <- uniqueteams
 colnames(dpr) <- "DPR"
 
-write.csv(dpr, file = "dpr")
+write.csv(dpr, file = "dpr.csv")
 
 # ## CCWM ##
 ccwm <- opr - dpr
 colnames(ccwm) <- "CCWM"
-write.csv(ccwm, file = "ccwm")
+write.csv(ccwm, file = "ccwm.csv")
 print("Complete.")
