@@ -92,6 +92,9 @@ for (year in years) {
   rownames(opr[[o]]) <- uniqueteams
   colnames(opr[[o]]) <- "OPR"
   
+  # writing to .csv
+  write.csv(opr, file = "opr.csv")
+  
   # ## DPR ##
   print("Solving. Please wait. This may take a while.")
   dprnscore <- tmatchmatrix %*% dprscore
@@ -101,9 +104,14 @@ for (year in years) {
   rownames(dpr[[o]]) <- uniqueteams
   colnames(dpr[[o]]) <- "DPR"
   
+  write.csv(dpr, file = "dpr.csv")
+  
   # ## CCWM ##
   ccwm[[o]] <- opr[[o]] - dpr[[o]]
   colnames(ccwm[[o]]) <- "CCWM"
   
+  write.csv(ccwm, file = "ccwm.csv")
+  
   o=o+1
 }
+print("Complete.")
