@@ -4,7 +4,7 @@ library(data.table)
 
 # User input here
 teamnum <- 2877
-years <- 2009:2019
+years <- 2002:2019
 
 o <- 1
 opr <- list()
@@ -48,13 +48,13 @@ for (year in years) {
     reduceddata[[l]][["blue"]][["team_keys"]] <- fulldata[[l]][["alliances"]][["blue"]][["team_keys"]]
     reduceddata[[l]][["red"]][["score"]] <- fulldata[[l]][["alliances"]][["red"]][["score"]]
     reduceddata[[l]][["red"]][["team_keys"]] <- fulldata[[l]][["alliances"]][["red"]][["team_keys"]]
-    try(combinedscore <- c(combinedscore, reduceddata[[l]][["blue"]][["score"]]))
-    try(combinedscore <- c(combinedscore, reduceddata[[l]][["red"]][["score"]]))
-    try(combinedteams <- c(combinedteams, reduceddata[[l]][["blue"]][["team_keys"]]))
-    try(combinedteams <- c(combinedteams, reduceddata[[l]][["red"]][["team_keys"]]))
-    try(dprscore <- c(dprscore, reduceddata[[l]][["red"]][["score"]]))
-    try(dprscore <- c(dprscore, reduceddata[[l]][["blue"]][["score"]]))
-    print(paste(floor(100*l/length(fulldata)),"%", sep = ""))
+    tryCatch(combinedscore <- c(combinedscore, reduceddata[[l]][["blue"]][["score"]]), error = function(e) {combinedscore <- c(combinedscore, 0)}, silent = TRUE)
+    tryCatch(combinedscore <- c(combinedscore, reduceddata[[l]][["red"]][["score"]]), error = function(e) {combinedscore <- c(combinedscore, 0)}, silent = TRUE)
+    tryCatch(combinedteams <- c(combinedteams, reduceddata[[l]][["blue"]][["team_keys"]]), error = function(e) {combinedteams <- c(combinedteams, c("null1","null2","null3"))}, silent = TRUE)
+    tryCatch(combinedteams <- c(combinedteams, reduceddata[[l]][["red"]][["team_keys"]]), error = function(e) {combinedteams <- c(combinedteams, c("null1","null2","null3"))}, silent = TRUE)
+    tryCatch(dprscore <- c(dprscore, reduceddata[[l]][["red"]][["score"]]), error = function(e) {dprscore <- c(dprscore, 0)}, silent = TRUE)
+    tryCatch(dprscore <- c(dprscore, reduceddata[[l]][["blue"]][["score"]]), error = function(e) {dprscore <- c(dprscore, 0)}, silent = TRUE)
+    print(paste(paste(floor(100*l/length(fulldata)),"%", sep = ""),combinedscore[[l]],dprscore[[l]],combinedteams[[l]],sep="     "))
   }
   
   # creates a vector of all unique team numbers
@@ -71,9 +71,9 @@ for (year in years) {
         matchmatrix[m,n] <- 1
       } else if (combinedteams[[m]][[3]]==uniqueteams[[n]]) {
         matchmatrix[m,n] <- 1
-      })
+      }, silent = TRUE)
     }
-    print(paste(floor(100*m/length(combinedscore)),"%", sep = ""))
+    print(paste(paste(floor(100*m/length(combinedscore)),"%", sep = ""),year,combinedscore[[m]],dprscore[[m]],sep="     "))
   }
   
   print("Please wait. This may take a while.")
@@ -92,9 +92,6 @@ for (year in years) {
   rownames(opr[[o]]) <- uniqueteams
   colnames(opr[[o]]) <- "OPR"
   
-  # writing to .csv
-  write.csv(opr, file = "opr.csv")
-  
   # ## DPR ##
   print("Solving. Please wait. This may take a while.")
   dprnscore <- tmatchmatrix %*% dprscore
@@ -104,14 +101,19 @@ for (year in years) {
   rownames(dpr[[o]]) <- uniqueteams
   colnames(dpr[[o]]) <- "DPR"
   
-  write.csv(dpr, file = "dpr.csv")
-  
   # ## CCWM ##
   ccwm[[o]] <- opr[[o]] - dpr[[o]]
   colnames(ccwm[[o]]) <- "CCWM"
   
-  write.csv(ccwm, file = "ccwm.csv")
-  
   o=o+1
 }
+
+names(opr) <- years
+names(dpr) <- years
+names(ccwm) <- years
+
+write.csv(opr, file = "opr.csv")
+write.csv(dpr, file = "dpr.csv")
+write.csv(ccwm, file = "ccwm.csv")
+
 print("Complete.")
