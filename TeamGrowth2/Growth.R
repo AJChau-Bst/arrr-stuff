@@ -106,7 +106,5 @@ for (year in years) {
   colnames(csvtemp) <- c(year, "OPR", "DPR", "CCWM")
   
   write.csv(csvtemp, file = paste(as.character(year), ".csv", sep = ""))
-  
 }
-
 print("Complete.")
