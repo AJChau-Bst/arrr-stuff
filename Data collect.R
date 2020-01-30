@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2002:2019
+years <- 2005:2019
 
 opr <- list()
 dpr <- list()
@@ -103,6 +103,6 @@ for (year in years) {
   csvtemp <- do.call(rbind, Map(cbind, uniqueteams, opr, dpr, ccwm))
   colnames(csvtemp) <- c(year, "OPR", "DPR", "CCWM")
   
-  write.csv(csvtemp, file = paste(as.character(year), ".csv", sep = ""))
+  write.csv(csvtemp, file = paste(as.character(year), ".csv", sep = ""), row.names=FALSE)
 }
 print("Complete.")
