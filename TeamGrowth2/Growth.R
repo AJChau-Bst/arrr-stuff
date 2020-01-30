@@ -6,7 +6,6 @@ library(data.table)
 teamnum <- 2877
 years <- 2002:2019
 
-o <- 1
 opr <- list()
 dpr <- list()
 ccwm <- list()
@@ -86,34 +85,28 @@ for (year in years) {
   print("Solving. Please wait. This may take several minutes.")
   nscore <- tmatchmatrix %*% combinedscore
   
-  opr[[o]] <- solve(nmatchmatrix, nscore)
+  opr <- solve(nmatchmatrix, nscore)
   
-  # assigning teams to opr's
-  rownames(opr[[o]]) <- uniqueteams
-  colnames(opr[[o]]) <- "OPR"
+  colnames(opr) <- "OPR"
   
   # ## DPR ##
   print("Solving. Please wait. This may take a while.")
   dprnscore <- tmatchmatrix %*% dprscore
   
-  dpr[[o]] <- solve(nmatchmatrix, dprnscore)
+  dpr <- solve(nmatchmatrix, dprnscore)
   
-  rownames(dpr[[o]]) <- uniqueteams
-  colnames(dpr[[o]]) <- "DPR"
+  colnames(dpr) <- "DPR"
   
   # ## CCWM ##
-  ccwm[[o]] <- opr[[o]] - dpr[[o]]
-  colnames(ccwm[[o]]) <- "CCWM"
+  ccwm <- opr - dpr
+  colnames(ccwm) <- "CCWM"
   
-  o=o+1
+  # ## Writing to .CSV ##
+  csvtemp <- do.call(rbind, Map(cbind, uniqueteams, opr, dpr, ccwm))
+  colnames(csvtemp) <- c(year, "OPR", "DPR", "CCWM")
+  
+  write.csv(csvtemp, file = paste(as.character(year), ".csv", sep = ""))
+  
 }
-
-names(opr) <- years
-names(dpr) <- years
-names(ccwm) <- years
-
-write.csv(opr, file = "opr.csv")
-write.csv(dpr, file = "dpr.csv")
-write.csv(ccwm, file = "ccwm.csv")
 
 print("Complete.")
