@@ -2,6 +2,8 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
+# ### STILL NEED TO CHECK FOR CORRUPTED DATA (2004) ###
+
 years <- 2005:2019
 
 opr <- list()
