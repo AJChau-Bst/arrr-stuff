@@ -2,12 +2,16 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2007:2009
+years <- 2007:2010
 
-oprzscore <- vector()
-dprzscore <- vector()
-ccwmzscore <- vector()
+b=1
+oprmaster <- list()
+dprmaster <- list()
+ccwmmaster <- list()
 for (year in years) {
+  oprzscore <- vector()
+  dprzscore <- vector()
+  ccwmzscore <- vector()
   tempdata <- read.csv(paste(as.character(year), ".csv", sep = ""))
   opr <- tempdata$OPR
   oprmean <- mean(opr)
@@ -23,5 +27,11 @@ for (year in years) {
     dprzscore <- append(dprzscore,((dpr[[a]]-dprmean)/dprsd))
     ccwmzscore <- append(ccwmzscore,((ccwm[[a]]-ccwmmean)/ccwmsd))
   }
+  oprmaster[[b]] <- oprzscore
+  dprmaster[[b]] <- dprzscore
+  ccwmmaster[[b]] <- ccwmzscore
+  b=b+1
 }
-
+write.csv(oprmaster, file = "OPR", row.names = FALSE, col.names = FALSE)
+write.csv(dprmaster, file = "DPR", row.names = FALSE, col.names = FALSE)
+write.csv(ccwmmaster, file = "CCWM", row.names = FALSE, col.names = FALSE)
