@@ -26,16 +26,9 @@ for (year in years) {
   ccwmsd <- sd(ccwm)
   maxlength[[b]] <- length(opr)
   for (a in 1:maxlength[[1]]) {
-    tryCatch(
-      oprzscore = append(oprzscore,((opr[[a]]-oprmean)/oprsd)),
-      dprzscore = append(dprzscore,-((dpr[[a]]-dprmean)/dprsd)),
-      ccwmzscore = append(ccwmzscore,((ccwm[[a]]-ccwmmean)/ccwmsd)),
-      error = function(e){
-        oprzscore = append(oprzscore, -255)
-        dprzscore = append(dprzscore, -255)
-        ccwmzscore = append(ccwmzscore, -255)
-      }
-    )
+    tryCatch(oprzscore <- append(oprzscore,((opr[[a]]-oprmean)/oprsd)), error = function(e) {oprzscore <- append(oprzscore, -255)})
+    tryCatch(dprzscore <- append(dprzscore,-((dpr[[a]]-dprmean)/dprsd)), error = function(e) {dprzscore <- append(dprzscore, -255)})
+    tryCatch(ccwmzscore <- append(ccwmzscore,((ccwm[[a]]-ccwmmean)/ccwmsd)), error = function(e) {ccwmzscore <- append(ccwmzscore, -255)})
   }
   oprmaster[[b]] <- oprzscore
   dprmaster[[b]] <- dprzscore
