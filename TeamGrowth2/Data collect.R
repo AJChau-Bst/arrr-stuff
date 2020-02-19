@@ -103,7 +103,7 @@ for (year in years) {
   
   # ## Writing to .CSV ##
   csvtemp <- do.call(rbind, Map(cbind, uniqueteams, opr, dpr, ccwm))
-  colnames(csvtemp) <- c(year, "OPR", "DPR", "CCWM")
+  colnames(csvtemp) <- c("Team", "OPR", "DPR", "CCWM")
   
   write.csv(csvtemp, file = paste(as.character(year), ".csv", sep = ""), row.names=FALSE)
 }
