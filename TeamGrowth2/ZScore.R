@@ -22,9 +22,18 @@ for (j in uniqueteams) {
     opr <- tempdata$OPR
     dpr <- tempdata$DPR
     ccwm <- tempdata$CCWM
+    oprmean <- mean(opr)
+    dprmean <- mean(dpr)
+    ccwmmean <- mean(ccwm)
+    oprsd <- sd(opr)
+    dprsd <- sd(dpr)
+    ccwmsd <- sd(ccwm)
     for (l in 1:length(tempteams)) {
       if (tempteams[l]==paste("frc",j,sep="")) {
-        umatrix <- rbind(umatrix, c(k,opr[l],dpr[l],ccwm[l]))
+        oprzscore <- (opr[l]-oprmean)/oprsd
+        dprzscore <- (dpr[l]-dprmean)/dprsd
+        ccwmzscore <- (ccwm[l]-ccwmmean)/ccwmsd
+        umatrix <- rbind(umatrix, c(k,oprzscore,dprzscore,ccwmzscore))
       }
     }
   }
