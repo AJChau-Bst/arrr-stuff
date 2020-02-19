@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2007:2019
+years <- 2007:2008
 
 teams <- vector()
 for (i in years) {
@@ -13,7 +13,7 @@ for (i in years) {
 uniqueteams <- unique(teams)
 
 m <- getwd()
-
+n <- 1
 for (j in uniqueteams) {
   umatrix <- matrix(,nrow=0,ncol=4)
   for (k in years) {
@@ -31,7 +31,7 @@ for (j in uniqueteams) {
     for (l in 1:length(tempteams)) {
       if (tempteams[l]==paste("frc",j,sep="")) {
         oprzscore <- (opr[l]-oprmean)/oprsd
-        dprzscore <- (dpr[l]-dprmean)/dprsd
+        dprzscore <- -(dpr[l]-dprmean)/dprsd
         ccwmzscore <- (ccwm[l]-ccwmmean)/ccwmsd
         umatrix <- rbind(umatrix, c(k,oprzscore,dprzscore,ccwmzscore))
       }
@@ -39,4 +39,6 @@ for (j in uniqueteams) {
   }
   colnames(umatrix) <- c("Year", "OPR", "DPR", "CCWM")
   write.csv(umatrix,file=paste(m,"/Teams/",j,".csv",sep=""),row.names=FALSE)
+  print(paste(paste(floor(100*n/length(uniqueteams)),"%",sep=""),j,sep="     "))
+  n=n+1
 }
