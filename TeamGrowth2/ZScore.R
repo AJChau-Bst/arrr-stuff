@@ -28,6 +28,6 @@ for (j in uniqueteams) {
       }
     }
   }
-  colnames(umatrix) <- c("Team", "OPR", "DPR", "CCWM")
+  colnames(umatrix) <- c("Year", "OPR", "DPR", "CCWM")
   write.csv(umatrix,file=paste(m,"/Teams/",j,".csv",sep=""),row.names=FALSE)
 }
