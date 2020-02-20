@@ -4,6 +4,7 @@ library(data.table)
 
 years <- 2007:2014
 
+# Reading data from yearly .csv files
 teams <- vector()
 for (i in years) {
   tempdata <- read.csv(paste(as.character(i), ".csv", sep = ""))
@@ -11,8 +12,10 @@ for (i in years) {
   teams <- as.character(teams)
 }
 
+# Generating list of unique teams ## there may be an issue here? ##
 uniqueteams <- unique(teams)
 
+# Calculating z-scores and writing them to .csv files by team
 m <- getwd()
 n <- 1
 for (j in uniqueteams) {
