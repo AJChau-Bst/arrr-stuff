@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2007:2017
+years <- 2007:2019
 
 # Reading data from yearly .csv files
 teams <- vector()
@@ -45,3 +45,4 @@ for (j in uniqueteams) {
   print(paste(paste(floor(100*n/length(uniqueteams)),"%",sep=""),j,sep="     "))
   n=n+1
 }
+print("Complete.")
