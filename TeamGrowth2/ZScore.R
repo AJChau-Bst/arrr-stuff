@@ -8,8 +8,7 @@ years <- 2007:2014
 teams <- vector()
 for (i in years) {
   tempdata <- read.csv(paste(as.character(i), ".csv", sep = ""))
-  teams <- append(teams, tempdata$Team)
-  teams <- as.character(teams)
+  teams <- as.character(append(teams, tempdata$Team))
 }
 
 # Generating list of unique teams ## there may be an issue here? ##
