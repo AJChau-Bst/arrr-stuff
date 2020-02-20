@@ -4,7 +4,7 @@ library(data.table)
 
 # ### STILL NEED TO CHECK FOR CORRUPTED DATA (2004 - 2006) ###
 
-years <- 2019:2019
+years <- 2007:2019
 
 opr <- list()
 dpr <- list()
