@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2007:2008
+years <- 2007:2010
 
 teams <- vector()
 for (i in years) {
