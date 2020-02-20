@@ -3,7 +3,7 @@ library(jsonlite)
 library(data.table)
 
 # User input here
-teamnum <- 217
+teamnum <- 2877
 
 i <- getwd()
 
