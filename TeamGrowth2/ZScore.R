@@ -2,7 +2,7 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-years <- 2007:2019
+years <- 2007:2020
 
 # Reading data from yearly .csv files
 teams <- vector()
