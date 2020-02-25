@@ -10,7 +10,7 @@ i <- getwd()
 teamdata <- read.csv(paste(i,"/Teams/",teamnum,".csv",sep=""))
 
 q <- seq(min(teamdata$Year), max(teamdata$Year), 1)
-degfr <- ceiling((max(teamdata$Year) - min(teamdata$Year)) / 5)
+degfr <- 3
 
 oprmax <- max(teamdata$OPR)
 dprmax <- max(teamdata$DPR)
