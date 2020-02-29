@@ -13,7 +13,7 @@ if (grab == TRUE) {
 
   rawdata <- GET(paste("https://www.thebluealliance.com/api/v3/event/",event,"/matches?X-TBA-Auth-Key=DzzDoXPk1JshyNjKpjkdDP2RHaqXNVD44xksasNYSxJu5YSmWYkTWvzA9stCcqrB",sep=""))
   rawdata2 <- rawToChar(rawdata$content)
-  fulldata <- fromJSON(rawdata2)
+  fulldata[[1]] <- fromJSON(rawdata2)
   print(paste(paste(floor(100*j/length(reducedevents)),"%", sep = ""), i, sep = "     "))
 }
 
