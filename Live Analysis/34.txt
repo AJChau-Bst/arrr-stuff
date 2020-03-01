@@ -1,0 +1,458 @@
+[
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 1,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 3
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 4,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 1,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 3
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Anika 2877",
+"Climb": true,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2370,
+"Driver Station": 3,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 4
+},
+"Level": true,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Zach",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 4987,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": true,
+"Yellow Card": false,
+"Notes": "They got tiped and can't shoot well. "
+},
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 1,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 2,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Fred Probst",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 1100,
+"Driver Station": 3,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 1,
+"Inner": 2
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "kavin chandok",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2590,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 1
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Clara 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 5347,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 3,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 3,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 2,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 1,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 34,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "No Scouter Name",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 1100,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+}
+]

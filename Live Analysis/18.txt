@@ -1,6 +1,310 @@
 [
 {
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 3,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 1,
+"Low": 0,
+"Bottom": 0,
+"Outer": 2,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 18,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Lilly M",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 1991,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 3,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": true,
+"Red Card": false,
+"Auto Miss": {
+"High": 1,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 5,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 18,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Nate R",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2170,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 2,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
 "Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 2,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 3,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 18,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Clara 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 3555,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 3,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 18,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Owen Hart",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 181,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": true,
 "Attempted Double Climb": false,
 "Attempted CLimb": true,
 "Red Card": false,
@@ -8,234 +312,6 @@
 "High": 0,
 "Low": 0
 },
-"Color": "red",
-"Double Climb": false,
-"Scoring": {
-"Position: 5": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 4": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 3": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 2": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 1": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 1
-},
-"Position: 0": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-}
-},
-"Time Playing Defense": 0,
-"Time Defense On Team": 0,
-"Match": 1,
-"Penalties": 0,
-"Color Control": false,
-"Scouter Name": "Joshua",
-"Climb": false,
-"Rotation Control": false,
-"Browned Out": false,
-"Team": 2096,
-"Driver Station": 1,
-"Auto Hits": {
-"Bottom": 0,
-"Outer": 0,
-"Inner": 2
-},
-"Level": false,
-"Disabled": false,
-"Yellow Card": false,
-"Notes": "No Notes"
-},
-{
-"Crossed Line": false,
-"Attempted Double Climb": false,
-"Attempted CLimb": false,
-"Red Card": false,
-"Auto Miss": {
-"High": 0,
-"Low": 0
-},
-"Color": "red",
-"Double Climb": false,
-"Scoring": {
-"Position: 5": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 4": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 3": {
-"High": 3,
-"Low": 0,
-"Bottom": 0,
-"Outer": 2,
-"Inner": 0
-},
-"Position: 2": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 1": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 4,
-"Inner": 0
-},
-"Position: 0": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-}
-},
-"Time Playing Defense": 0,
-"Time Defense On Team": 0,
-"Match": 1,
-"Penalties": 0,
-"Color Control": false,
-"Scouter Name": "Joshua",
-"Climb": true,
-"Rotation Control": false,
-"Browned Out": false,
-"Team": 5990,
-"Driver Station": 2,
-"Auto Hits": {
-"Bottom": 0,
-"Outer": 1,
-"Inner": 2
-},
-"Level": false,
-"Disabled": false,
-"Yellow Card": false,
-"Notes": "No Notes"
-},
-{
-"Crossed Line": false,
-"Attempted Double Climb": false,
-"Attempted CLimb": false,
-"Red Card": false,
-"Auto Miss": {
-"High": 0,
-"Low": 0
-},
-"Color": "red",
-"Double Climb": false,
-"Scoring": {
-"Position: 5": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 4": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 3": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 2": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 1": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 0": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-}
-},
-"Time Playing Defense": 0,
-"Time Defense On Team": 0,
-"Match": 1,
-"Penalties": 1,
-"Color Control": false,
-"Scouter Name": "Joshua",
-"Climb": false,
-"Rotation Control": false,
-"Browned Out": false,
-"Team": 6230,
-"Driver Station": 3,
-"Auto Hits": {
-"Bottom": 0,
-"Outer": 3,
-"Inner": 0
-},
-"Level": false,
-"Disabled": false,
-"Yellow Card": false,
-"Notes": "No teleop shooting"
-},
-{
-"Crossed Line": false,
-"Attempted Double Climb": false,
-"Attempted CLimb": false,
-"Red Card": false,
-"Auto Miss": {
-"High": 2,
-"Low": 0
-},
 "Color": "blue",
 "Double Climb": false,
 "Scoring": {
@@ -247,24 +323,24 @@
 "Inner": 0
 },
 "Position: 4": {
-"High": 0,
+"High": 1,
 "Low": 0,
 "Bottom": 0,
 "Outer": 0,
 "Inner": 0
 },
 "Position: 3": {
-"High": 4,
-"Low": 0,
+"High": 0,
+"Low": 2,
 "Bottom": 0,
-"Outer": 0,
+"Outer": 1,
 "Inner": 0
 },
 "Position: 2": {
 "High": 0,
 "Low": 0,
 "Bottom": 0,
-"Outer": 0,
+"Outer": 1,
 "Inner": 0
 },
 "Position: 1": {
@@ -282,26 +358,26 @@
 "Inner": 0
 }
 },
-"Time Playing Defense": 310,
-"Time Defense On Team": 310,
-"Match": 1,
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 18,
 "Penalties": 0,
 "Color Control": false,
-"Scouter Name": "Joshua",
+"Scouter Name": "Jack Tommaney",
 "Climb": true,
 "Rotation Control": false,
 "Browned Out": false,
-"Team": 1577,
+"Team": 2370,
 "Driver Station": 3,
 "Auto Hits": {
 "Bottom": 0,
-"Outer": 3,
+"Outer": 0,
 "Inner": 0
 },
 "Level": true,
 "Disabled": false,
 "Yellow Card": false,
-"Notes": "Inaccurate shooting"
+"Notes": "Great climb and mediocre shooting - won the match with 106 points"
 },
 {
 "Crossed Line": false,
@@ -309,10 +385,10 @@
 "Attempted CLimb": false,
 "Red Card": false,
 "Auto Miss": {
-"High": 3,
+"High": 0,
 "Low": 0
 },
-"Color": "blue",
+"Color": "red",
 "Double Climb": false,
 "Scoring": {
 "Position: 5": {
@@ -330,10 +406,10 @@
 "Inner": 0
 },
 "Position: 3": {
-"High": 1,
+"High": 0,
 "Low": 0,
 "Bottom": 0,
-"Outer": 1,
+"Outer": 0,
 "Inner": 0
 },
 "Position: 2": {
@@ -360,90 +436,14 @@
 },
 "Time Playing Defense": 0,
 "Time Defense On Team": 0,
-"Match": 1,
+"Match": 18,
 "Penalties": 0,
 "Color Control": false,
-"Scouter Name": "Joshua",
-"Climb": false,
+"Scouter Name": "Charlotte 2877",
+"Climb": true,
 "Rotation Control": false,
 "Browned Out": false,
-"Team": 1574,
-"Driver Station": 2,
-"Auto Hits": {
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Level": false,
-"Disabled": false,
-"Yellow Card": false,
-"Notes": "No Notes"
-},
-{
-"Crossed Line": false,
-"Attempted Double Climb": false,
-"Attempted CLimb": false,
-"Red Card": false,
-"Auto Miss": {
-"High": 0,
-"Low": 0
-},
-"Color": "blue",
-"Double Climb": false,
-"Scoring": {
-"Position: 5": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 4": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 3": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 2": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 1": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-},
-"Position: 0": {
-"High": 0,
-"Low": 0,
-"Bottom": 0,
-"Outer": 0,
-"Inner": 0
-}
-},
-"Time Playing Defense": 0,
-"Time Defense On Team": 0,
-"Match": 1,
-"Penalties": 4,
-"Color Control": false,
-"Scouter Name": "Joshua",
-"Climb": false,
-"Rotation Control": false,
-"Browned Out": false,
-"Team": 7112,
+"Team": 2067,
 "Driver Station": 3,
 "Auto Hits": {
 "Bottom": 0,
@@ -453,6 +453,6 @@
 "Level": false,
 "Disabled": false,
 "Yellow Card": false,
-"Notes": "defense only"
+"Notes": "No Notes"
 }
 ]

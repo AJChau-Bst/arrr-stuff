@@ -2,29 +2,29 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-team <- 2096
-matches <- 1:2
+team <- 2877
+matches <- c(11:43)
 
 fulldataset <- list()
 sepdata <- vector(mode="list",length=9999)
 for (i in matches) {
-  fulldataset[[i]] <- read_json(paste(i,".txt",sep=""))
+  try(fulldataset[[i]] <- read_json(paste(i,".txt",sep="")))
 }
 
 for (j in 1:length(fulldataset)) {
   for (k in 1:length(fulldataset[[j]])) {
     # m <- fulldataset[[j]][[k]][["Team"]]
-    sepdata[[fulldataset[[j]][[k]][["Team"]]]] <- vector(mode = "list", length = 12)
+    try(sepdata[[fulldataset[[j]][[k]][["Team"]]]] <- vector(mode = "list", length = 12),silent = T)
   }
 }
 
 for (j in 1:length(fulldataset)) {
   for (k in 1:length(fulldataset[[j]])) {
     for (l in 1:12) {
-      if (is.null(sepdata[[fulldataset[[j]][[k]][["Team"]]]][[l]]) == TRUE) {
+      try(if (is.null(sepdata[[fulldataset[[j]][[k]][["Team"]]]][[l]]) == TRUE) {
         sepdata[[fulldataset[[j]][[k]][["Team"]]]][[l]] <- fulldataset[[j]][[k]]
         break
-      }
+      },silent = T)
     }
     # assign(paste("frc",fulldataset[[j]][[k]][["Team"]],sep="")[[l]],fulldataset[[j]][[k]])
     
