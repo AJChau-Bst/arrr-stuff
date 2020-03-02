@@ -1,0 +1,458 @@
+[
+{
+"Crossed Line": true,
+"Attempted Double Climb": true,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 3,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Position: 0": {
+"High": 2,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Clara 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2067,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 2,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 4,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Charlotte 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2877,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": true,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 2,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Hannah 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 110,
+"Driver Station": 3,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "No Scouter Name",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 0,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "No Scouter Name",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 0,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 51,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "No Scouter Name",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 0,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+}
+]
