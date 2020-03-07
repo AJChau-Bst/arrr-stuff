@@ -1,0 +1,458 @@
+[
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 2,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 1,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 1,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Matthew Honig",
+"Climb": true,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 2590,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 2,
+"Low": 0,
+"Bottom": 0,
+"Outer": 5,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Justin",
+"Climb": true,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 78,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "Long range"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": true,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 1
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 1,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 3,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Harley",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 316,
+"Driver Station": 1,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 5,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "A motor was hanging from the climbing mechanism"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Marian and Lena",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 7153,
+"Driver Station": 3,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "It did nothing\n"
+},
+{
+"Crossed Line": true,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "red",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Anika 2877",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 181,
+"Driver Station": 2,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "No Notes"
+},
+{
+"Crossed Line": false,
+"Attempted Double Climb": false,
+"Attempted CLimb": false,
+"Red Card": false,
+"Auto Miss": {
+"High": 0,
+"Low": 0
+},
+"Color": "blue",
+"Double Climb": false,
+"Scoring": {
+"Position: 5": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 4": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 3": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 2": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 1": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Position: 0": {
+"High": 0,
+"Low": 0,
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+}
+},
+"Time Playing Defense": 0,
+"Time Defense On Team": 0,
+"Match": 11,
+"Penalties": 0,
+"Color Control": false,
+"Scouter Name": "Lena and Mariam",
+"Climb": false,
+"Rotation Control": false,
+"Browned Out": false,
+"Team": 7153,
+"Driver Station": 3,
+"Auto Hits": {
+"Bottom": 0,
+"Outer": 0,
+"Inner": 0
+},
+"Level": false,
+"Disabled": false,
+"Yellow Card": false,
+"Notes": "It did nothing"
+}
+]

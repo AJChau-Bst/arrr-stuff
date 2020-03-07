@@ -2,8 +2,14 @@ library(httr)
 library(jsonlite)
 library(data.table)
 
-team <- 2877
+## ##### ##
+## ENTER TEAM NUMBER HERE ##
+team <- 190
+
+# Increase max value if more than 80 matches #
 matches <- c(1:80)
+## ##### ##
+
 
 fulldataset <- list()
 sepdata <- vector(mode="list",length=9999)
@@ -59,9 +65,15 @@ for (n in 1:12) {
 # mean(climb)
 
 dt <- data.table(
-  Auto_Scoring = autoscoring,
-  Teleop_Scoring = scoring,
+  AutoPoints = autoscoring,
+  TeleopPoints = scoring,
   Climb = climb
+)
+dt0 <- data.table(
+  MeanAutoPoints = mean(autoscoring),
+  MeanTeleopPoints = mean(scoring),
+  ClimbRate = paste(100*mean(climb),"%",sep="")
 )
 
 dt
+dt0
