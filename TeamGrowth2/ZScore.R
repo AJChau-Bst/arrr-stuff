@@ -5,19 +5,19 @@ library(data.table)
 years <- 2007:2020
 
 # Reading data from yearly .csv files
-teams <- vector()
-for (i in years) {
-  tempdata <- read.csv(paste(as.character(i), ".csv", sep = ""))
-  teams <- as.character(append(teams, tempdata$Team))
-}
+# teams <- vector()
+# for (i in years) {
+#   tempdata <- read.csv(paste(as.character(i), ".csv", sep = ""))
+#   teams <- as.character(append(teams, tempdata$Team))
+# }
 
 # Generating list of unique teams ## there may be an issue here? ##
-uniqueteams <- unique(teams)
+# uniqueteams <- unique(teams)
 
 # Calculating z-scores and writing them to .csv files by team
 m <- getwd()
 n <- 1
-for (j in uniqueteams) {
+for (j in 1:9999) {
   umatrix <- matrix(,nrow=0,ncol=4)
   for (k in years) {
     tempdata <- read.csv(paste(as.character(k), ".csv", sep = ""))
@@ -42,7 +42,7 @@ for (j in uniqueteams) {
   }
   colnames(umatrix) <- c("Year", "OPR", "DPR", "CCWM")
   write.csv(umatrix,file=paste(m,"/Teams/",j,".csv",sep=""),row.names=FALSE)
-  print(paste(paste(floor(100*n/length(uniqueteams)),"%",sep=""),j,sep="     "))
+  print(paste(paste(floor(100*n/length(1:9999)),"%",sep=""),j,sep="     "))
   n=n+1
 }
 print("Complete.")
