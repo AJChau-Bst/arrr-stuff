@@ -17,6 +17,7 @@ years <- 2007:2020
 # Calculating z-scores and writing them to .csv files by team
 m <- getwd()
 n <- 1
+## 4383 ##
 for (j in 1:9999) {
   umatrix <- matrix(,nrow=0,ncol=4)
   for (k in years) {
