@@ -3,7 +3,7 @@ library(jsonlite)
 library(data.table)
 
 years <- 2007:2020
-
+teamrange <- 4382:9999
 # Reading data from yearly .csv files
 # teams <- vector()
 # for (i in years) {
@@ -18,7 +18,7 @@ years <- 2007:2020
 m <- getwd()
 n <- 1
 ## 4383 ##
-for (j in 1:9999) {
+for (j in teamrange) {
   umatrix <- matrix(,nrow=0,ncol=4)
   for (k in years) {
     tempdata <- read.csv(paste(as.character(k), ".csv", sep = ""))
@@ -43,7 +43,7 @@ for (j in 1:9999) {
   }
   colnames(umatrix) <- c("Year", "OPR", "DPR", "CCWM")
   write.csv(umatrix,file=paste(m,"/Teams/",j,".csv",sep=""),row.names=FALSE)
-  print(paste(paste(floor(100*n/length(1:9999)),"%",sep=""),j,sep="     "))
+  print(paste(paste(floor(100*n/length(teamrange)),"%",sep=""),j,sep="     "))
   n=n+1
 }
 print("Complete.")
