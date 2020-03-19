@@ -3,11 +3,11 @@ library(jsonlite)
 library(data.table)
 
 # User input here
-teamnum <- 95
+teamnum <- 2877
 
 i <- getwd()
 
-teamdata <- read.csv(paste(i,"/Teams/",teamnum,".csv",sep=""))
+teamdata <- read.csv(paste("Teams/",teamnum,".csv",sep=""))
 
 oprmax <- max(teamdata$OPR)
 dprmax <- max(teamdata$DPR)
