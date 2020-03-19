@@ -5,8 +5,9 @@ account: ligerbots2877
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1966907
-bundleId: 2898594
+bundleId: 2898823
 url: https://ligerbots2877.shinyapps.io/Dashboard2877/
-when: 1584635433.23811
+when: 1584639511.55369
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: Data collect.R|OneTeamTriPlot.R|TriPlotWithRegression.R|ZScore.R
