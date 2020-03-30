@@ -41,7 +41,20 @@ ui <- dashboardPage(
                   plotOutput("curve", height = 550)
                 )
               )
-      )
+      ),
+      tabItem(tabName = "infiniterecharge",
+              fluidRow(
+                box(width = 4,
+                    plotOutput("irauto")),
+                box(width = 4,
+                    plotOutput("irpowercell")),
+                box(width = 4,
+                    plotOutput("irclimb"))
+              ),
+              fluidRow(
+                box(width = 4,
+                    plotOutput("irfoul"))
+              ))
     )
   )
 )
@@ -178,7 +191,9 @@ server <- function(input, output){
     legend("bottomleft", c("OPR", "DPR", "CCWM"), col = c("red", "deepskyblue", "green"), pch = 15, text.col = "black", horiz = TRUE)
   })
   
-  
+  output$irauto <- renderPlot({
+    
+  })
 }
 
 shinyApp(ui, server)
