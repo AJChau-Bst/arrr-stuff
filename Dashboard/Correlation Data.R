@@ -25,5 +25,14 @@ for(k in length(fulldata):1){
   if(length(fulldata[[k]])==0){
     fulldata[[k]] <- NULL
   }
-  print(paste(floor(100-(100*k/length(fulldata))),"%", sep = ""))
 }
+
+# "win","autoPoints","teleopCellPoints","endgamePoints","foulPoints","autoCellsInner","teleopCellsInner","autoCellsOuter","teleopCellsOuter"
+# winning_alliance,autoPoints,teleopCellPoints,endgamePoints,foulPoints,autoCellsInner,teleopCellsInner,autoCellsOuter,teleopCellsOuter
+
+infiniterecharge <- data.frame()
+for (l in 1:length(fulldata)) {
+  temp <- data.frame(datacol <- fulldata[[l]][["winning_alliance"]])
+  infiniterecharge <- rbind(infiniterecharge, temp)
+}
+

@@ -53,7 +53,11 @@ ui <- dashboardPage(
               ),
               fluidRow(
                 box(width = 4,
-                    plotOutput("irfoul"))
+                    plotOutput("irfoul")),
+                box(width = 4,
+                    plotOutput("irinner")),
+                box(width = 4,
+                    plotOutput("irouter"))
               ))
     )
   )
