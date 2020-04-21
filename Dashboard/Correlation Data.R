@@ -36,3 +36,23 @@ for (l in 1:length(fulldata)) {
   infiniterecharge <- rbind(infiniterecharge, temp)
 }
 
+colnames(infiniterecharge) <- c("Winner")
+infiniterecharge$win_auto=-1
+infiniterecharge$win_powerCell=-1
+infiniterecharge$win_climb=-1
+infiniterecharge$win_foul=-1
+infiniterecharge$win_inner=-1
+infiniterecharge$win_outer=-1
+infiniterecharge$lose_auto=-1
+infiniterecharge$lose_powerCell=-1
+infiniterecharge$lose_climb=-1
+infiniterecharge$lose_foul=-1
+infiniterecharge$lose_inner=-1
+infiniterecharge$lose_outer=-1
+
+o=1
+for (m in 1:length(fulldata)) {
+  for (n in fulldata[[m]][["winning_alliance"]]) {
+    print(n)
+  }
+}
